@@ -32,7 +32,27 @@ const sacarDinheiro = async (req, res) => {
 };
 
 const depositarDinheiro = async (req, res) => {
+    const { numero_conta, valor } = req.body;
 
+    const encontrarNumeroConta = contas.find((c) => {
+        return c.numero === Number(numero_conta);
+    });
+
+    if (!encontrarNumeroConta) {
+        return res.status(404).json({ mensagem: "Conta não encontrada" });
+    };
+
+    if (valor <= 0) {
+        return res.status(401).json({ mensagem: "Valor de depósito deve ser maior que zero." })
+    };
+
+    encontrarNumeroConta.saldo += valor;
+
+    saques.push({
+        data: new Date(),
+        numero_conta,
+        valor
+    });
     return res.status(200).json();
 };
 
