@@ -48,7 +48,7 @@ const depositarDinheiro = async (req, res) => {
 
     encontrarNumeroConta.saldo += valor;
 
-    saques.push({
+    depositos.push({
         data: new Date(),
         numero_conta,
         valor
