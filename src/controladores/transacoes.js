@@ -53,7 +53,6 @@ const depositarDinheiro = async (req, res) => {
         numero_conta,
         valor
     });
-
     return res.status(200).json();
 };
 
