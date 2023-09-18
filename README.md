@@ -44,5 +44,10 @@ Uma API com funcionalidades básicas de operações bancárias.
 #### Porta padrão utilizada:
     `localhost:3000`
 
+![Captura de tela 2023-09-17 214325](https://github.com/dev-MichaelCruz/api-rest-banco/assets/138594098/e4524168-3e18-4616-9937-ba3fc55596f2)
+![Captura de tela 2023-09-17 214425](https://github.com/dev-MichaelCruz/api-rest-banco/assets/138594098/e644fb14-b28e-475e-a62c-f3031b24e7ed)
+![code3](https://github.com/dev-MichaelCruz/api-rest-banco/assets/138594098/69060221-13af-4bb1-b662-b1b581d25748)
+![code2](https://github.com/dev-MichaelCruz/api-rest-banco/assets/138594098/691c716c-5a63-4ab2-af83-2898a90f5b29)
+
 
 
